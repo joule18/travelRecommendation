@@ -1,0 +1,136 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  background: linear-gradient(to right, black, rgb(87, 87, 87));
+  height: 80px;
+}
+
+/* for contact and about us page */
+
+.navbar-other {
+  padding: 0 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100vw;
+  background: linear-gradient(to right, black, rgb(87, 87, 87));
+  height: 80px;
+}
+
+/* for contact and about us page */
+
+.nav-left,
+.nav-center,
+.nav-center-other,
+.nav-right {
+  width: 30vw;
+}
+
+.nav-left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+
+.site-name {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+}
+
+.nav-center {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+/* for contact and about us page */
+
+.nav-center-other {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 57px;
+}
+
+/* for contact and about us page */
+
+.nav-center a,
+.nav-center-other a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-center a:hover,
+.nav-center-other a:hover {
+  text-decoration: underline;
+}
+
+.nav-right {
+  background-color: white;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 20px;
+}
+
+.search-bar-container {
+  width: 300px;
+  height: 40px;
+  margin-left: 0.5em;
+}
+
+.search-input {
+  border: none;
+  height: 40px;
+  width: 280px;
+  margin: 0 auto;
+  display: block;
+  font-size: 1rem;
+  outline: none;
+}
+
+.search-btn-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-right: 20px;
+}
+
+.search-btns {
+  background-color: rgb(3, 131, 3);
+  border-radius: 3px;
+  border: none;
+  color: white;
+  width: 55px;
+  height: 30px;
+}
+
+.search-btns:hover {
+  cursor: pointer;
+  background-color: rgb(2, 90, 2);
+}
+
+/*prep styles below*/
+.white {
+  color: white;
+}
+
+.red {
+  background-color: red;
+}
