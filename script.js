@@ -64,7 +64,7 @@ async function searchRecommendation() {
 
     searchData.forEach(({ name, imageUrl, description }) => {
       results += `<div class="result-container">
-              <img src="images/paris.jpg" alt="${name}" class="location-img" />
+              <img src="${imageUrl}" alt="${name}" class="location-img" />
               <div class="desc-container">
                 <div class="location-name">${name}</div>
                 <div class="location-desc">
