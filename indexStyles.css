@@ -1,0 +1,131 @@
+.section-main {
+  display: flex;
+}
+
+.main-left-intro {
+  width: 50%;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.desc-big {
+  font-size: 4em;
+  font-weight: bolder;
+  margin: 0 10%;
+}
+
+.desc-small {
+  margin-left: 10%;
+  max-width: 50%;
+  line-height: 30px;
+}
+
+.book-now-btn {
+  margin-left: 10%;
+  padding: 2% 3%;
+  background-color: rgba(47, 255, 241, 0.548);
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.book-now-btn:hover {
+  background-color: rgba(30, 161, 153, 0.548);
+  cursor: pointer;
+}
+
+.main-right-results {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.all-results-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 1em;
+  align-items: center;
+  height: 550px;
+  width: 600px;
+  overflow-y: auto;
+}
+
+.result-container {
+  height: 470px;
+  width: 80%;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.location-img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px 5px 0 0;
+}
+
+.desc-container {
+  padding: 15px 15px;
+}
+
+.location-name {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.location-desc {
+  color: rgb(77, 77, 77);
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+.visit-btn {
+  margin-top: 5px;
+  padding: 2% 4%;
+  background-color: rgb(0, 116, 108);
+  border: none;
+  color: white;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.visit-btn:hover {
+  background-color: rgb(0, 79, 74);
+  cursor: pointer;
+}
+
+/* SCROLLBAR CUSTOM START*/
+
+/* Target the scrollbar track */
+.all-results-container::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Background of the scrollbar */
+.all-results-container::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+/* The draggable handle */
+.all-results-container::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+/* On hover */
+.all-results-container::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* SCROLLBAR CUSTOM END */

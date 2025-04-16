@@ -139,7 +139,7 @@
   height: 90vh;
   background-image: linear-gradient(
       to right,
-      rgba(0, 0, 0, 0.516),
+      rgba(0, 0, 0, 0.718),
       rgba(0, 0, 0, 0)
     ),
     url("images/bg.jpg");
@@ -188,12 +188,3 @@
 /* Left Mini Panel End */
 
 /* Main Section End */
-
-/*prep styles below*/
-.white {
-  color: white;
-}
-
-.red {
-  background-color: red;
-}
