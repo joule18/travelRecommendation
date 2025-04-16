@@ -35,14 +35,27 @@
             type="text"
             class="search-input"
             placeholder="Input keywords..."
+            id="search-input-id"
           />
         </div>
         <div class="search-btn-container">
           <div>
-            <button type="button" onclick="" class="search-btns">Search</button>
+            <button
+              type="button"
+              onclick="searchRecommendation()"
+              class="search-btns"
+            >
+              Search
+            </button>
           </div>
           <div>
-            <button type="button" onclick="" class="search-btns">Clear</button>
+            <button
+              type="button"
+              onclick="clearRecommendation()"
+              class="search-btns"
+            >
+              Clear
+            </button>
           </div>
         </div>
       </div>
@@ -69,34 +82,13 @@
           <button class="book-now-btn" type="button">BOOK NOW</button>
         </div>
         <div class="main-right-results">
-          <div class="all-results-container">
-            <div class="result-container">
-              <img src="images/paris.jpg" alt="Paris" class="location-img" />
-              <div class="desc-container">
-                <div class="location-name">Paris, France</div>
-                <div class="location-desc">
-                  Paris, the capital of France, is renowned for its rich
-                  history, iconic landmarks like the Eiffel Tower, and
-                  world-class art museums such as the Louvre.
-                </div>
-                <button class="visit-btn">Visit</button>
-              </div>
-            </div>
-            <div class="result-container">
-              <img src="images/paris.jpg" alt="Paris" class="location-img" />
-              <div class="desc-container">
-                <div class="location-name">Paris, France</div>
-                <div class="location-desc">
-                  Paris, the capital of France, is renowned for its rich
-                  history, iconic landmarks like the Eiffel Tower, and
-                  world-class art museums such as the Louvre.
-                </div>
-                <button class="visit-btn">Visit</button>
-              </div>
-            </div>
-          </div>
+          <div
+            class="all-results-container"
+            id="all-results-container-id"
+          ></div>
         </div>
       </div>
     </section>
+    <script src="script.js"></script>
   </body>
 </html>
