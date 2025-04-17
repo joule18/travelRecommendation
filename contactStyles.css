@@ -61,3 +61,8 @@ textarea {
   border: none;
   border-radius: 4px;
 }
+
+.btn-submit:hover {
+  background-color: rgb(34, 113, 109);
+  cursor: pointer;
+}
