@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JouleJourneys: Contacts Us</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="contactStyles.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
@@ -40,7 +41,26 @@
           <i class="fa-brands fa-youtube"></i>
         </div>
       </div>
-      <div class="section-main white"></div>
+      <div class="section-main">
+        <div class="left-section">
+          <h1 class="contact-us-title">CONTACT US</h1>
+          <h1 class="contact-us-desc">Get in touch.</h1>
+        </div>
+        <div class="right-section">
+          <form class="form">
+            <p class="input-desc">Name</p>
+            <input type="text" class="input-name" id="contact-name-id" />
+            <p class="input-desc">Email</p>
+            <input type="text" class="input-email" id="contact-email-id" />
+            <p class="input-desc">Message</p>
+            <textarea class="input-message" id="contact-message-id"></textarea>
+            <button type="button" class="btn-submit" onclick="clearMessage()">
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
     </section>
+    <script src="miscScript.js"></script>
   </body>
 </html>
